@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.fragments.UserPointsFragment">
+
+
+    <TextView
+        android:id="@+id/points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="32dp"
+        android:text="@string/points"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_points"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:text="@string/_10"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@id/points"
+        app:layout_constraintStart_toEndOf="@id/points"
+        app:layout_constraintTop_toTopOf="@id/points" />
+
+    <TextView
+        android:id="@+id/level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/level"
+        android:textSize="32sp"
+        app:layout_constraintStart_toStartOf="@id/points"
+        app:layout_constraintTop_toBottomOf="@id/points" />
+
+    <TextView
+        android:id="@+id/tv_level"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/_1"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@id/level"
+        app:layout_constraintStart_toStartOf="@id/tv_points"
+        app:layout_constraintTop_toTopOf="@id/level" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

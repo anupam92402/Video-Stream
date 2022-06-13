@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Video</string>
+    <string name="register">Register</string>
+    <string name="your_mobile_no">Your Mobile No.</string>
+    <string name="your_name">Your Name</string>
+    <string name="login_here">Login Here</string>
+    <string name="your_email">Your Email</string>
+    <string name="your_password">Your Password</string>
+    <string name="login">Login</string>
+    <string name="create_new_account">Create New Account?</string>
+    <string name="register_here">Register Here</string>
+    <string name="already_registered">Already Registered ?</string>
+    <string name="points">Points:-</string>
+    <string name="_10">10</string>
+    <string name="level">Level:-</string>
+    <string name="_1">1</string>
+    <string name="genre">Genre</string>
+    <string name="name">Name</string>
+</resources>
